@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(https://lh3.googleusercontent.com/ogCtGvS9TdvStkr7d1PyDFKIg48JfsugrtPp7FOfqj6sv8mhkBHEX51s6lyTCJyPUDKEhmj0aBZeMv8Obhe30lW1oJ6vj7QU_DeD4R-n);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+
+.logo{
+color: #fffdfc;
+font-size: 25PX;
+font-weight: 800;
+
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li{
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt{
+    text-align: center;
+}
+
+.header-txt h1{
+    font-size: 85px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.header-txt p{
+    color: #bebebe;
+    font-size: 16px;
+    padding: 250px;
+    margin-bottom: 45px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 12px 45px;
+    border: 1px solid #943a0d;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-1:hover{
+    color: #1B293a;
+    background-color: #fffdfc;
+}
+
+.general{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.general-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.general-1{
+    background-image: url(https://lh3.googleusercontent.com/83q_igfRxf6RBfYMXYUqPvOufm1wp1Q26YJC5FoFpIcENPUXP7_X87v5M7s3HcVkIjE79oNLRxDGZhsJOMWRkZWYM-8DYuwLrFR9B0mr);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+
+
+h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #1B293a;
+}
+
+.txt-h3{
+    font-size: 18px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.txt p {
+    color: #000000;
+    font-size: 16px;
+}
+
+.info-1{
+    padding: 250px 0;
+    background-color: #dfdddd;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.info-content{
+    text-align: left;
+}
+
+.info-content h2, span{
+    color: #fffdfc;
+}
+
+.info-circle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.circle-txt{
+    width: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.circle-1{
+    height: 100px;
+    width: 100px;
+    border: 1p solid #fffdfc;
+    border-radius: 50px;
+    padding-top: 35px;
+}
+
+.circle-1 h2{
+    color: #000000;
+    font-size: 20px;
+}
+
+.info-2 {
+    padding: 250px 0;
+    background-image: url(https://shapesfightwears.com/wp-content/uploads/2021/11/sublimated-top-tank-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.taza{
+    display:flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.taza-left{
+    width: 50%;
+    padding-left: 25px;
+}
+
+.taz-txt{
+    margin-bottom: 25px;
+}
+
+.taz-txt img {
+    width: 300px;
+    margin-bottom: 15px;
+    height: auto;
+}
+
+.taz-txt h2{
+    color: #000000;
+}
+
+.taz-txt h3{
+    font-size: 20px;
+    color: white;
+}
+
+.taz-txt p {
+    color: #000000;
+    font-size: 16px;
+}
+
+.taz-txt h2{
+    color:white ;
+}
+
+.footer {
+    background-color: aquamarine;
+    padding: 100px 0 0 0;
+    text-align: center;
+}
+
+.form{
+    margin-top: 35px;
+}
+
+.campo{
+    margin-right: 10px;
+    padding: 17px 35px;
+    border: 2px solid #b4b4b4;
+    outline: none;
+}
+
+@media(max-widht:991px){
+    .menu {
+        padding: 30px;
+    }
+.menu label{
+    display: initial;
+}
+
+.menu.navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #1B293a;
+    display: none;
+}
+
+.menu.navbar.ul li{
+    width: 100%;
+}
+
+#menu:checked ~ .navbar{
+    display: initial;
+}
+
+.header {
+    min-height: 0vh;
+}
+
+.header-content{
+    padding: 100px 30px;
+}
+
+.header-txt h1{
+    font-size: 50px;
+}
+
+.header-txt p {
+    padding: 0;
+}
+
+.general{
+    padding:  30px 30px 0 30px;
+}
+
+.general-content{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.general-1{
+    height: 350px;
+    padding: 100px;
+    margin-bottom: 10px;
+}
+
+
+}
