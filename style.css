@@ -79,7 +79,7 @@ font-weight: 800;
 
 .header-txt h1{
     font-size: 85px;
-    color: #ff0000;
+    color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -155,18 +155,20 @@ h2{
 
 .info-1{
     padding: 250px 0;
-    background-color: #dfdddd;
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+
 
 .info-content{
     text-align: left;
 }
 
 .info-content h2, span{
-    color: #fffdfc;
+    color: #ffffff;
 }
 
 .info-circle{
@@ -193,7 +195,7 @@ h2{
 }
 
 .circle-1 h2{
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
 }
 
@@ -204,6 +206,8 @@ h2{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+
 
 .taza{
     display:flex;
@@ -228,7 +232,7 @@ h2{
 }
 
 .taz-txt h2{
-    color: #000000;
+    color: #ffffff;
 }
 
 .taz-txt h3{
@@ -237,7 +241,7 @@ h2{
 }
 
 .taz-txt p {
-    color: #000000;
+    color: #ffffff;
     font-size: 16px;
 }
 
@@ -246,7 +250,7 @@ h2{
 }
 
 .footer {
-    background-color: aquamarine;
+    background-color: rgb(4, 5, 5);
     padding: 100px 0 0 0;
     text-align: center;
 }
