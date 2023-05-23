@@ -18,7 +18,7 @@ body{
 }
 
 .header{
-    background-image: url(blob:https://web.whatsapp.com/0ebc4549-bb2a-4eb4-af81-75cba633ac71);
+    background-image: url(https://lh3.googleusercontent.com/y4yknpxjn0orOHF5Nfwm4-EKdr0Xd5VrXiDEkrn1HRYmZM5aZOztUHMh3i1P_y7RXKWjpcDjUZNWI6x1NIHS95-_oL9A4GfKECOmma4);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ font-weight: 800;
 .menu .navbar ul li{
     font-size: 18px;
     padding: 20px;
-    color: #fffdfc;
+    color: #ff0000;
     display: block;
     font-weight: 600;
 }
@@ -79,13 +79,13 @@ font-weight: 800;
 
 .header-txt h1{
     font-size: 85px;
-    color: #fffdfc;
+    color: #ff0000;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
 .header-txt p{
-    color: #bebebe;
+    color: #ff0000;
     font-size: 16px;
     padding: 250px;
     margin-bottom: 45px;
@@ -102,7 +102,7 @@ font-weight: 800;
 
 .btn-1:hover{
     color: #1B293a;
-    background-color: #fffdfc;
+    background-color: #b17050;
 }
 
 .general{
@@ -123,6 +123,15 @@ font-weight: 800;
     background-size: cover;
     height: 450px;
     padding: 170px 55px;
+}
+
+h1{
+
+    color: #dfdddd;
+}
+
+p{
+    color: #fffdfc;
 }
 
 
@@ -190,7 +199,7 @@ h2{
 
 .info-2 {
     padding: 250px 0;
-    background-image: url(blob:https://web.whatsapp.com/4d91833b-4558-404d-b273-2fbd5f3913c5);
+    background-image: url(https://lh3.googleusercontent.com/hzdYt5HrbGXax_RoqqeMdnnrbOXAJQhsUiE0Ol7LcrsSN4znYrQSJ93LvuGG74o4kC6gQk8GmC7Qs9Xl5lnxTD3rVRrc0sgPJ7nItegA);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -241,6 +250,7 @@ h2{
     padding: 100px 0 0 0;
     text-align: center;
 }
+
 
 .form{
     margin-top: 35px;
